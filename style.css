@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/image.jpg");
+  }
+  #main{
+    font-size: large;
+    font-family: 'Rammetto One', cursive;
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    color: rgb(245, 38, 38);
+    
+  }
+  canvas {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  #video{
+      right: 10px;
+      bottom: 10px;
+      position: absolute;
+      /* border: 2px solid red; */
+      border-radius: 10px;
+  }
+  #myVideo{
+      position: absolute;
+        margin: auto;
+        align-items: center;
+        bottom: 150px;
+        border: 2px solid white;
+        background: black;
+        border-radius: 5px;
+        /* border: 2px solid black; */
+
+  }
+  #play1{
+    position: absolute;
+    margin: auto;
+    align-items: center;
+    left: 550px;
+    bottom: 80px;
+    /* background: rgb(161, 17, 17); */
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 10px;
+    font-family: 'Rammetto One', cursive;
+  }
+  #pause1{
+    position: absolute;
+    bottom: 80px;
+    left: 700px;
+    /* background: rgb(161, 17, 17); */
+    border: 2px solid black;
+     width: 100px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 10px;
+    font-family: 'Rammetto One', cursive;
+  }
+  button:hover{
+      background: black;
+      color: white;
+  }

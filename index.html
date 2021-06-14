@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AI Video Player</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main">
+    <h1>THE MOVIE CINEMA</h1>
+  </div>
+  <video id="video" width="250" height="200" autoplay muted></video>
+  <button onclick="playVid()" id="play1" type="button">Start Cam</button>
+<button onclick="pauseVid()" id="pause1" type="button">Stop Cam</button><br> 
+<video id="myVideo" width="720" height="350" controls>
+  <source src="avengers.mp4" type="video/mp4">
+  <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+  Your browser does not support HTML5 video.
+</video>
+<!-- <div id="basic" style="text-align:center;">
+  <video id=" video" class="videostream" autoplay="" controls></video>
+  <audio class="audiostream" autoplay=""></audio>
+  <p>
+    <button class="capture-button">Capture</button>
+    <button id="stop-button">Stop</button>
+  </p>
+</div> -->
+<!-- <script> 
+  // var vid = document.getElementById("myVideo"); 
+  
+  // function playVid() { 
+  //   vid.play();
+
+  // } 
+  
+  // function pauseVid() { 
+  //   vid.pause();
+  //   video.stop(); 
+  // } 
+  </script> -->
+</body>
+</html>
